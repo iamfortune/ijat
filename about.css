@@ -1,0 +1,284 @@
+
+.navbar{
+    background-color: #110B17;
+}
+
+a{
+    color: #F86B27;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(201, 78, 17);
+    text-decoration: none;
+}
+
+#products h5{
+    margin-left: 3rem;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.product img{
+    width: 8rem;
+    border-radius: 25rem;
+    margin-bottom: 1rem;
+}
+
+.product h6{
+    color: #FFF;
+}
+
+.btn-outline-info {
+    color: #1592E6;
+    border-color: #1592E6;
+}
+
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #1592E6;
+    border-color: #1592E6;
+}
+
+.btn-outline-info:focus,
+.btn-outline-info.focus {
+    box-shadow: 0 0 0 0.2rem #1592E6
+}
+
+.btn-outline-info.disabled,
+.btn-outline-info:disabled {
+    color: #17a2b8;
+    background-color: transparent;
+}
+
+.btn-outline-info:not(:disabled):not(.disabled):active,
+.btn-outline-info:not(:disabled):not(.disabled).active,
+.show>.btn-outline-info.dropdown-toggle {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+
+.btn-outline-info:not(:disabled):not(.disabled):active,
+.btn-outline-info:not(:disabled):not(.disabled).active,
+.show>.btn-outline-info.dropdown-toggle {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-outline-info:not(:disabled):not(.disabled):active:focus,
+.btn-outline-info:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-info.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #17a2b8;
+}
+
+
+
+@media only screen and (min-width: 992px){
+
+    html, body{
+        overflow-x: hidden;
+    }
+
+    body{
+        line-height: 2;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    nav{
+        margin: 0 4% 1%;
+    }
+
+    .navbar-nav{
+        margin-left: 62%;
+    }
+
+    #about{
+        margin-top: 3rem;
+        padding: 5% 5% 15% 5%;
+        line-height: 2;
+        margin-right: auto;
+    }
+
+    #about h5{
+        text-align: center;
+        margin-bottom: 4%;
+        line-height: 2;
+    }
+
+    #about p{
+        text-align: center;
+        font-size: large;
+    }
+
+    .branding h1{
+        margin-left: 40%;
+        padding: 0;
+        font-weight: 900;
+        position: relative;
+    }
+
+    .and h2{
+        text-align: center;
+        position: relative;
+        top: 180px;
+        background-color: #1592E6;
+        padding: 20% 10%;
+        margin: 0;
+    }
+
+    .homepage-icons img {
+        margin-left: 15%;
+        max-width: 25rem;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 0.2fr 1fr;
+        grid-column-gap: 1.5%;
+    }
+
+    .homepage-icons{
+        max-width: 1%;
+    }
+
+    #branding-text{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 30% 30%;
+        grid-column-gap: 35%;
+        justify-items: right;
+        margin-left: 12%;
+        margin-right: 5%;
+    }
+
+    footer{
+        background: #110B17 0% 0% no-repeat border-box;
+        color: #FFF;
+    }
+
+    .copyright {
+        text-align: center;
+        padding: 2rem;
+    }
+
+
+}
+
+ 
+ @media only screen and (max-width: 991px){
+    html, body {
+        overflow-x: hidden;
+    }
+
+    body {
+        line-height: 2;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    nav {
+        margin: 0 4% 1%;
+    }
+    .navbar-nav {
+        margin-left: 62%;
+    }
+
+    .CTA {
+        background-color: rgba(0, 0, 0, 0.449);
+    }
+
+    #about{
+        padding-top: 5%;
+    }
+
+    #about h5 {
+        margin-top: 5rem;
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 1.2rem;
+    }
+
+    #about p {
+       text-align: center;
+       line-height: 2;
+       font-size: medium;
+    }
+
+
+
+
+    .branding h1{
+        margin-top: 5rem;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+        grid-column-gap: 1%;
+        justify-items: center;
+    }
+
+    .homepage-icons img {
+        margin-top: 2rem;
+        max-width: 14rem;
+    }
+    
+    .and{
+        display: none;
+    }
+
+    #branding-text {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 3%;
+        justify-items: left;
+    }
+
+
+      footer {
+          background-color: #110B17;
+          color: #FFF;
+      }
+
+      .copyright {
+          text-align: center;
+          padding: 2rem;
+      }
+
+ } 
+
+
+
+ @media only screen and (max-width: 500px){
+    
+    footer {
+        background-color: #110B17;
+        color: #FFF;
+    }
+ }
+
+
+ @media(max-width: 768px){
+     .navbar-nav{
+         position: relative;
+         right: 7rem;
+         width: 50%;
+         text-align: center;
+     }
+
+     .navbar-nav .nav-link{
+         padding: 1rem;
+     }
+
+
+ }

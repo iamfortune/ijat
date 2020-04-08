@@ -1,0 +1,839 @@
+.main{
+    width: 90%;
+    margin: auto;
+}
+
+main {
+    background: url(images/bg-image.png) center cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding-bottom: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-top: 0;
+    padding: 1rem;
+    height: 60vh
+}
+
+.header-text {
+    color: rgb(240, 240, 240);
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 2rem 2rem 0;
+}
+
+header a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header-btn:hover {
+    border: #FFF solid 2px;
+    background-color: rgb(247, 36, 247);
+}
+
+.header-btn {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem 2rem;
+    border: rgb(247, 36, 247) solid 2px;
+}
+
+/* Showcase */
+#showcase {
+    text-align: center;
+    margin: 0;
+}
+
+.showcase-div {
+    margin-top: 5rem;
+}
+
+.showcase-div>h2 {
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+/* Features */
+
+#features {
+    padding: 5rem 1rem;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.feature img {
+    width: 30%;
+    margin-bottom: 0rem;
+}
+
+.feature h6 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.feature p {
+    width: 100%;
+    margin: auto;
+}
+
+.feature a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 1.2rem;
+}
+
+/* Branding */
+#branding {
+    background: #1B0B1C center center/cover;
+    color: #FFF;
+    padding: 1rem 1rem 2rem;
+    text-align: center;
+}
+
+#branding h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+#branding img {
+    width: 100%;
+}
+
+#branding button {
+    margin-top: 1.2rem;
+    padding: 0.5rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* CTA-1 */
+#CTA-1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#CTA-1 .container .CTA-1s .column{
+    max-width: 80%;
+    margin: auto
+}
+
+#CTA-1 h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1.3rem;
+}
+
+#CTA-1 p {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+#CTA-1 .column {
+    display: block;
+}
+
+#CTA-1 .column>div {
+    border: 2px solid rgb(214, 214, 214);
+    width: 100%;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    line-height: 1.5;
+    box-shadow: #00000029 0px 2px 8px;
+}
+
+#CTA-2 {
+    background-color: #FF78BD;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    margin-bottom: 0;
+}
+
+#CTA-2 h3 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1.3rem;
+    text-align: center;
+}
+
+#CTA-2 .container .col-lg-5{
+    text-align: center;
+}
+
+#CTA-3 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+#CTA-3 h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1.3rem;
+}
+
+#CTA-3 h6 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+#CTA-3 form{
+    width: 80%;
+    margin: auto;
+}
+
+#CTA-3 label {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.CTA-3_form-div {
+    margin-left: 0;
+}
+
+#CTA-3 input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(182, 181, 181);
+    width: 100%;
+}
+
+.form-btn {
+    padding: 0.7rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    background-color: #FF78BD;
+    color: #FFF;
+}
+
+.form-btn:hover {
+    background-color: rgb(175, 42, 111);
+}
+
+
+/* Contact Page */
+#contact-form {
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+#contact-form h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#contact-form label {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#contact-form input {
+    background-color: #00000029;
+    width: 100%;
+    padding: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.contact-btn {
+    padding: 0.8rem 2.5rem;
+    font-weight: 500;
+    border: none;
+    background-color: #1B0B1C;
+    color: #FFF;
+}
+
+
+/* Pricing Page */
+#pricing-CTA {
+    text-align: center;
+    margin: 2rem 0 2rem;
+}
+
+.pricing-CTA_div {
+    margin-top: 2rem;
+}
+
+.pricing-CTA_div>h2 {
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.pricing-CTA_div>p {
+    margin: 0;
+}
+
+#price-list {
+    background-color: #1B0B1C;
+    color: #FFF;
+    line-height: 2;
+    padding: 2rem 1rem;
+}
+
+#price-list h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+#price-list .container{
+    max-width: 80%;
+    margin: auto;
+}
+
+#price-list .table {
+    position: static;
+    width: 100%;
+    color: #FFF;
+}
+
+#price-list h3 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#price-info {
+    line-height: 2;
+    margin: 3rem 0;
+}
+
+#price-info h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#price-info h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+#price-info a {
+    color: #FF78BD;
+    font-weight: 700;
+    display: block;
+}
+
+#price-info a:hover {
+    color: rgb(248, 17, 136);
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+}
+
+#price-info .table {
+    width: 80%;
+    border-color: #000;
+    position: static;
+}
+
+.table-text {
+    position: static;
+    margin-bottom: 3rem;
+}
+
+/* Signup Page */
+#signup {
+    margin: 1rem 0 5rem;
+    display: block;
+    text-align: center;
+}
+
+#signup h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+#signup label {
+    display: block;
+}
+
+#signup input {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-color: rgb(141, 141, 141);
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.signup-btn {
+    padding: 1.2rem 10rem;
+    font-weight: 500;
+    border: none;
+    background-color: #1B0B1C;
+    color: #FFF;
+    width: 100%;
+}
+
+.signup-btn:hover {
+    background-color: rgb(40, 12, 68);
+}
+
+#signup .btn-container{
+    max-width: 80%;
+    margin: 2rem auto;
+}
+
+.facebook-btn,
+.google-btn {
+    display: block;
+    padding: 1.2rem 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    border: 1px solid rgb(179, 173, 173);
+    border-radius: 0.5rem;
+    background-color: #FFF;
+    color: #000;
+    width: 100%;
+}
+
+.facebook-btn:hover,
+.google-btn:hover {
+    border-color: #110B17;
+}
+
+.facebook-btn {
+    margin-right: 0;
+}
+
+#signup .facebook-icon {
+    width: 1rem;
+    margin-right: 2rem;
+}
+
+#signup .google-icon {
+    width: 2rem;
+    margin-right: 2rem;
+}
+
+#signup h6 {
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+.signin-link {
+    margin-top: 3rem;
+}
+
+.signin-link a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.signin-link a:hover {
+    color: rgb(25, 66, 150);
+}
+
+
+/* Signin page */
+
+#signin {
+    margin: 2rem 0 15rem;
+    display: block;
+    text-align: center;
+}
+
+#signin h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+
+#signin label {
+    display: block;
+}
+
+#signin input {
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-color: rgb(141, 141, 141);
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.signin-btn {
+    padding: 1.3rem 10rem;
+    margin-top: 0;
+    font-weight: 500;
+    border: none;
+    background-color: #1B0B1C;
+    color: #FFF;
+    width: 100%;
+}
+
+.signin-btn:hover {
+    background-color: rgb(40, 12, 68);
+}
+
+#signin p {
+    margin-top: 3rem;
+    font-weight: 500;
+}
+
+/* Reset Password Page */
+#reset-password {
+    margin: 2rem 0 15rem;
+    display: block;
+    text-align: center;
+}
+
+#reset-password h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+#reset-password input {
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-color: rgb(141, 141, 141);
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.signin-btn {
+    padding: 1.3rem 10rem;
+    margin-top: 0;
+    font-weight: 500;
+    border: none;
+    background-color: #1B0B1C;
+    color: #FFF;
+    width: 100%;
+}
+
+.resetpassword-btn:hover {
+    background-color: rgb(40, 12, 68);
+}
+
+#reset-password p {
+    margin-top: 3rem;
+    font-weight: 700;
+}
+
+/* List Of Blocked Names Pages */
+#blocked-names {
+    margin: 2rem 0;
+}
+
+#blocked-names .container{
+    max-width: 90%;
+    margin: auto;
+}
+
+#blocked-names h3 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-bottom: 1.2rem;
+}
+
+#blocked-names h6 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 2rem 0 0.5rem 0;
+}
+
+/* Dashboard */
+#dashboard {
+    margin: 7rem 0rem 0rem 0;
+}
+
+.sidebar{
+    display: none;
+    z-index: 1;
+}
+
+nav .sidebar-toggler{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.sidebar-toggle{
+    display: block;
+}
+
+.list-group-item {
+    padding: 0.9rem 0;
+    margin-left: 0rem;
+    border: none;
+    background: #f5f5f5;
+}
+
+.list-group-item a {
+    color: #000;
+    font-weight: 500;
+    font-size: small;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    background-color: #000;
+    color: #FFF
+}
+
+.list-group-item img {
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.dashboard-text {
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.dashboard-text .container{
+    max-width: 100%;
+    margin: auto;
+}
+
+.dashboard-intro p {
+    color: red;
+}
+
+.dashboard-intro a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.sender_input {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 5px rgb(184, 181, 181);
+    width: 100%;
+}
+
+.recipient_input {
+    padding: 2rem 1.5rem 8rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 3px 8px rgb(184, 181, 181);
+}
+
+.form-check {
+    margin-left: 0rem;
+}
+
+.form-check-label{
+    font-size: small;
+    display: block;
+    margin-bottom: 1.3rem;
+}
+
+.dashboard-text textarea {
+    border-radius: 0.5rem;
+    box-shadow: 0px 3px 8px rgb(184, 181, 181);
+}
+
+.word-counter {
+    float: right;
+}
+
+.num_of_characters,
+.num_of_pages {
+    background-color: #00000029;
+    padding: 3px 15px;
+}
+
+
+.dashboard-text h6{
+    margin: 2rem 0 1rem;
+}
+
+.dashboard-text .input-group {
+    width: 100%;
+}
+
+.dashboard-intro h6 {
+    margin: 1.5rem 0 5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(61, 61, 61);
+}
+
+.row-input {
+    width: 80%;
+}
+
+.upload-btn {
+    padding: 0.6rem 2rem;
+    margin: 1.2rem 0 1rem;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(238, 234, 238);
+    color: rgb(109, 107, 107);
+}
+
+.upload-btn:hover {
+    background-color: rgb(102, 102, 102);
+    color: #FFF;
+}
+
+
+.send-SMS-btn {
+    padding: 0.8rem 1.5rem;
+    margin: 1.5rem 0 0.1rem;
+    font-weight: 500;
+    border: none;
+    background-color: #1B0B1C;
+    color: #FFF;
+}
+
+.send-SMS-btn:hover {
+    background-color: rgb(40, 12, 68);
+}
+
+.buy-container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.buy-container h5{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.buy-container .form-check{
+    margin-left: 3rem;
+}
+
+.buy-container label{
+    margin-top: 1.1rem;
+}
+
+/* Message history Page */
+.schedule-container{
+    max-width: 90%;
+    margin: auto;
+}
+
+.SMS-history {
+    display: block;
+}
+
+.SMS-dropdown{
+    margin-top: 1rem;
+    float: right;
+}
+
+.SMS-dropdown .dropdown-item{
+    z-index: 0;
+}
+
+.SMS-history .input-group {
+    width: 100%;
+}
+
+.search-input-title {
+    padding: 0 2rem;
+}
+
+.search-input {
+    padding: 1.5rem 2.5rem;
+}
+
+.SMS-history .reset-btn {
+    padding: 0.6rem 2rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(238, 234, 238);
+    color: rgb(109, 107, 107);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer {
+     padding-top: 5rem;
+     background-color: #110B17;
+     color: #FFF;
+     margin-top: 0;
+ }
+
+ .footer-grid {
+     margin-top: 1rem;
+     padding-bottom: 1rem;
+     display: inline-block;
+     text-align: center;
+ }
+
+ footer img {
+     max-width: 10rem;
+     margin-bottom: 1rem;
+ }
+
+ .legal-div {
+     margin-top: 2rem;
+     margin-bottom: 5rem;
+ }
+
+ .navigation {
+     margin-top: 4rem;
+ }
+
+ .footer-nav p {
+     display: inline;
+     padding: 5px;
+ }
+
+ .footer-nav a {
+     color: rgb(177, 177, 177);
+     text-decoration: none;
+ }
+
+ .footer-nav a:hover {
+     color: #FFF;
+ }
+
+ .fab {
+     margin-left: 15px;
+     background-color: #FFF;
+     color: #1A2438;
+     padding: 3%;
+ }

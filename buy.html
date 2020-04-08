@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/240142b5be.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <title>iJAT-Bulk SMS | Welcome</title>
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav id="nav" class="fixed-top">
+      <h1>ijatSMS <br> <i class="fa fa-bars sidebar-toggler"></i></h1> 
+      <ul class="nav-ul" id="nav-ul">
+        <li><a href="index.html">Go Home</a></li>
+      </ul>
+    </nav>
+
+    <!-- Dashboard -->
+    <div id="dashboard">
+          <div class="sidebar">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="buy.html"><img src="images/sidebar-buy.png" alt="icon"> <span class="li-text">Buy SMS Units</span></a></li>
+              
+              <li class="list-group-item"><a href="portal.html"><img src="images/sidebar-compose.png" alt="icon"><span class="li-text">Compose SMS</span></a></li>
+              <li class="list-group-item"><a href="scheduleSMS.html"><img src="images/sidebar-schedule.png" alt="icon"><span class="li-text">Schedule SMS</span> </a></li>
+
+              <li class="list-group-item"><a href="messagehistory.html"><img src="images/sidebar-compose.png" alt="icon"><span class="li-text">Message History</span></a></li>
+
+              <li class="list-group-item"><a href="profile.html"><img src="images/sidebar-profile.png" alt="icon"><span class="li-text">My Profile</span></a></li>
+              <li class="list-group-item"><a href="logout.html"><img src="images/sidebar-logout.png" alt="icon"><span class="li-text">Log Out</span></a></li>
+          </ul>
+      </div>
+
+      <div class="dashboard-text content">
+        <div class="buy-container">
+          <h5>Buy SMS Unit Online and Get Credited Instantly</h5>
+          <div class="form-group">
+            <label for="SMS Units">SMS Units *</label>
+            <input type="text" name="SMS Units" class="form-control" id="SMS-units" required>
+            <button class="buy-btn">Get Price</button>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="amount" id="amount" value="option1" checked>
+              <label class="form-check-label" for="amount">#  NGN 0.00</label>
+            </div>
+            <div class="buy-info">
+              <small>Select Paystack below & click 'BUY NOW'</small>
+            </div>
+
+            <div class="form-check pay-check">
+              <input class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="paystack-payment"
+                value="option1">
+              <label class="form-check-label"
+                for="paystack-payment"><img src="images/paystack.png" alt=""> Paystack Online Payment</label>
+            </div>
+          </div>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        </div>
+    </div>
+    
+
+    <!-- Footer Section -->
+    <!-- <footer>
+        <p class="copyright text-center">© Copyright 2020 iJATSMS | All right reserved</p>
+    </footer> -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="dashboard.js" defer></script>
+  </body>
+</html>

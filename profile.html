@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/240142b5be.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <title>iJAT-Bulk SMS | User Profile</title>
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav id="nav" class="fixed-top">
+      <h1>ijatSMS <br> <i class="fa fa-bars sidebar-toggler"></i></h1> 
+      <ul class="nav-ul" id="nav-ul">
+        <li><a href="index.html">Go Home</a></li>
+      </ul>
+    </nav>
+
+    <!-- Dashboard -->
+    <div id="dashboard">
+      <div class="sidebar">
+        <ul class="list-group">
+          <li class="list-group-item"><a href="buy.html"><img src="images/sidebar-buy.png" alt="icon"> <span class="li-text">Buy SMS Units</span></a></li>
+          
+          <li class="list-group-item"><a href="compose.html"><img src="images/sidebar-compose.png" alt="icon"><span class="li-text">Compose SMS</span></a></li>
+          <li class="list-group-item"><a href="scheduleSMS.html"><img src="images/sidebar-schedule.png" alt="icon"><span class="li-text">Schedule SMS</span> </a></li>
+
+          <li class="list-group-item"><a href="messagehistory.html"><img src="images/sidebar-compose.png" alt="icon"><span class="li-text">Message History</span></a></li>
+
+          <li class="list-group-item"><a href="profile.html"><img src="images/sidebar-profile.png" alt="icon"><span class="li-text">My Profile</span></a></li>
+          <li class="list-group-item"><a href="logout.html"><img src="images/sidebar-logout.png" alt="icon"><span class="li-text">Log Out</span></a></li>
+        </ul>
+      </div>
+
+      <div class="dashboard-text content">
+        <div class="account-details">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Account</th>
+                        <th>SMS Units</th>
+                        <th>Received Credit(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td class="acct-name">Name: <br> <br> Ayoleyi</td>
+                        <td class="SMS-units">Total SMS Units: <br> <br> 2</td>
+                        <td class="credit-received">Total Received Credit: <br> <br> 2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="acct-email">Email: <br> <br> ayoleyi@gmail.com</td>
+                        <td class="sender-id">Total Sender IDs: <br> <br>Null</td>
+                        <td class="key-word">Total key Words: <br> <br>0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="acct-create-date">Created On: <br> <br> 2020-03-10</td>
+                        <td class="used-units">Used SMS Unit: <br> <br> 0</td>
+                        <td class="available-units">Available SMS Units: <br> <br> 2</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="acct-epiration-date">Expiring On: <br> <br> No expiry</td>
+                        <td class="received-word">Used Receievd Word: <br> <br> 0</td>
+                        <td class="available-receievd">Available Received word: <br> <br> 0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="additional-account-details">
+            <h6>Additional Details</h6>
+            <p>Phone Number:</p>
+            <p>081029142333</p>
+
+            <div class="form-group">
+              <label for="Suffix">Message Suffix</label>
+              <input type="text" name="username" class="form-control" id="msg-suffix" required>
+
+              <label for="Prefix">Message Prefix</label>
+              <input type="text" name="Message Prefix" class="form-control" id="msg-prefix" required>
+
+              <button class="profile-btn">SAVE</button>
+            </div>
+            
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="copyright text-center">© Copyright 2020 iJATSMS | All right reserved</p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="dashboard.js" defer></script>
+  </body>
+</html>
